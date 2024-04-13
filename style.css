@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(248, 234, 217);
+}
+
+form {
+  padding-top: 30px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  align-items: center;
+  flex-direction: row;
+}
+
+h2,
+ul {
+  padding-top: 20px;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.submit {
+  border-radius: 5px;
+  width: 100px;
+  background-color: aqua;
+}
+
+.delete-info {
+  padding-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.clear {
+  border-radius: 5px;
+  width: 100px;
+  background-color: rgb(211, 59, 59);
+  text-align: center;
+}
+
+.no-tasks {
+  color: gray;
+  padding-top: 20px;
+  text-align: center;
+}
